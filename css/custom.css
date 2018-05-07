@@ -8,8 +8,8 @@
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  padding-top: 60px;
-  padding-left: 60px;
+  padding-top: 80px;
+  padding-left: 80px;
 }
 
 .sidenav a {
@@ -24,9 +24,10 @@
 }
 
 .main {
-  margin-left: 260px;
+  margin-left: 280px;
   font-size: 30px;
-  padding: 0px 10px;
+  padding-left: 10px;
+  padding-right: 120px;
 }
 
 @media screen and (max-height: 450px) {
