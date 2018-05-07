@@ -1,9 +1,21 @@
 var eventsURL = "https://raw.githubusercontent.com/bakeryscienceclub/bakeryscienceclub.github.io/,aster.js.events.json";
 
-$.retrieveJSON(eventsURL)
+function link(text, url){
+  var hyperlink = document.createElement("a");
+  hyperlink.innerHTML = text;
+  if(url){
+    hyperlink.setAttribute('href', url);
+  }
+  return hyperlink;
+}
+
+$.getJSON(eventsURL)
   .done(function(data){
     createEvents(data);
   })
+  .fail(function(a, b, c){
+    jsonRetrieveError(c);
+  });
 
   function createEvents(eventsJSON){
     var today = new Date();
@@ -24,15 +36,6 @@ $.retrieveJSON(eventsURL)
         past.appendChild(currentEvent);
       }
     }
-  }
-
-  function link(text, url){
-    var hyperlink = document.createElement("a");
-    hyperlink.innerHTML = text;
-    if(url){
-      hyperlink.setAttribute('href', url);
-    }
-    return hyperlink;
   }
 
   function newEvent(eventsJSON){
