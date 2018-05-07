@@ -9,6 +9,10 @@ body {
   background-size: cover;**/
 }
 
+#logo {
+  max-width: 160px;
+}
+
 .title {
   text-align: left;
   font-size: 40pt;
