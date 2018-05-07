@@ -1,0 +1,36 @@
+body {
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  /**background-image: url(.../[insert pic url here, if desired])
+  background-size: cover;**/
+}
+
+.title {
+  text-align: left;
+  font-size: 40pt;
+  overflow: visible;
+  margin-bottom: 40px;
+}
+
+.name {
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 0px;
+  font-size: 60pt;
+  margin-top: 10px;
+}
+
+.text {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.header {
+  font-zise: 25pt;
+  padding-top: 1em;
+}
