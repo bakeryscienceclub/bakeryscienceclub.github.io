@@ -22,12 +22,10 @@
   #a9a9a9
 }
 
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 35px;
-  margin-left: 50px;
+.main {
+  margin-left: 160px;
+  font-size: 30px;
+  padding: 0px 10px;
 }
 
 @media screen and (max-height: 450px) {
