@@ -38,3 +38,11 @@ body {
   font-zise: 25pt;
   padding-top: 1em;
 }
+
+a {
+  color: #e0a541;
+}
+
+a:hover{
+  color: #777777;
+}

@@ -34,3 +34,34 @@
   .sidenav {padding-top: 15px; padding-left: 0px;}
   .sidenav a {font-size: 18px;}
 }
+
+/**Events**/
+.event{
+  font-weight: 400;
+  margin-bottom: 30;
+}
+
+.events_header{
+  border-bottom: 2px black;
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.event .name{
+  font-size: 30pt;
+  font-weight: bolder;
+}
+
+.event .date{
+  font-size: 25pt;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.event .blurb{
+  font-size: 25pt;
+  font-weight: normal;
+  margin-top: 4px;
+  margin-left:10px;
+}
