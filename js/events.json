@@ -1,0 +1,32 @@
+[
+  {
+  "name":"Sample event 3",
+  "date_name":"May 9th",
+  "date": "May 9 2018",
+  "time": "5:00-6:00PM",
+  "place": "Ohio Union",
+  "blurb": "This is a fun sample event, where we will e doing misc activities",
+  "rsvp":"RSVP here!",
+  "rsvp_link":"bakeryscienceclub.github.com",
+  }
+  {
+  "name":"Sample event",
+  "date_name":"May 8th",
+  "date": "May 8 2018",
+  "time": "5:00-6:00PM",
+  "place": "Ohio Union",
+  "blurb": "This is a fun sample event, where we will e doing misc activities",
+  "rsvp":"RSVP here!",
+  "rsvp_link":"bakeryscienceclub.github.com",
+  }
+  {
+  "name":"Sample event 1",
+  "date_name":"May 7th",
+  "date": "May 7 2018",
+  "time": "5:00-6:00PM",
+  "place": "Ohio Union",
+  "blurb": "This is a fun sample event, where we will e doing misc activities",
+  "rsvp":"RSVP here!",
+  "rsvp_link":"bakeryscienceclub.github.com",
+  }
+]
