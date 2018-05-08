@@ -14,9 +14,14 @@ $.getJSON(eventsURL)
     createEvents(data);
   })
   .fail(function(a, b, c){
-    jsonRetrieveError(c);
+    getJSONError(c);
   });
 
+  function getJSONError(e){
+    var future = document.getElementById('future');
+    future.innerHTML = "Could not load events"
+    console.log("Failed to load '" + eventsURL + "'. Error: " + e);
+  }
   function createEvents(eventsJSON){
     var today = new Date();
     var future = document.getElementById('future');
