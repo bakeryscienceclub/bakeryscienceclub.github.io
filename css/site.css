@@ -50,3 +50,20 @@ a:hover{
 #socialicons {
   max-width: 30px;
 }
+
+
+.container {
+  margin-left: 300px;
+}
+
+.footer {
+    position: fixed;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
